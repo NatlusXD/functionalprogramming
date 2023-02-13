@@ -1,4 +1,4 @@
-def stringMethods():
+def string_methods():
     # Присвоение строки
     string = "Тестовая строка для проверки функций"
 
@@ -12,7 +12,7 @@ def stringMethods():
     print("3. 3-й символ:", string[2])
 
     # 4. Срез
-    print("4. Срез строки:", string[7:12])
+    print("4. Срез строки:", string[8:19])
 
     # 5. Разделение строки
     words = string.split()
@@ -34,5 +34,5 @@ def stringMethods():
     # 10. Проверка вхождения строки
     print("10. Проверка вхождения:", "строка" in string)
 
-#Вызываем функцию stringMethods
-stringMethods()
+#Вызываем функцию string_methods
+string_methods()
