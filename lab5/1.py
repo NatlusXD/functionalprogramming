@@ -1,10 +1,10 @@
 students = {}
 
 while True:
-    student = input("Введите студента: ")
+    student = input('Введите студента: ')
     if student == '':
         break
-    subject = input("Введите предмет: ")
+    subject = input('Введите предмет: ')
     if subject in students:
         students[subject].append(student)
     else:
