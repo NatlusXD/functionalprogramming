@@ -1,17 +1,17 @@
-def find_longest_word(lst):
-    return max(lst, key=len)
+def find_longest_word(list):
+    return max(list, key=len)
 
-def find_shortest_word(lst):
-    return min(lst, key=len)
+def find_shortest_word(list):
+    return min(list, key=len)
 
-def count_words(lst):
-    return len(lst)
+def count_words(list):
+    return len(list)
 
-def reverse_list(lst):
-    return lst[::-1]
+def reverse_list(list):
+    return list[::-1]
 
-def sort_list(lst):
-    return sorted(lst)
+def sort_list(list):
+    return sorted(list)
 
 words = input("Введите слова списка через пробел: ").split()
 print("Список: ", words)
