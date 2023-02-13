@@ -12,4 +12,4 @@ while True:
 
 for subject, student_list in sorted(students.items()):
     print(f'Предмет: {subject}')
-    print(f'Студенты: {", ".join(sorted(student_list))}')
+    print(f'Студенты: {", ".join(student_list)}')
