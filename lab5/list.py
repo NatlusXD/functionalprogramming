@@ -20,10 +20,10 @@ longest_word = find_longest_word(words)
 print("Самое длинное слово в списке: ", longest_word)
 
 shortest_word = find_shortest_word(words)
-print("самое короткое слово в списке: ", shortest_word)
+print("Самое короткое слово в списке: ", shortest_word)
 
 word_count = count_words(words)
-print("Количество слов в спискке: ", word_count)
+print("Количество слов в списке: ", word_count)
 
 reversed_list = reverse_list(words)
 print("Список наоборот: ", reversed_list)
