@@ -1,7 +1,7 @@
 students = {}
 
 while True:
-    student = input("Ввведите студента: ")
+    student = input("Введите студента: ")
     if student == '':
         break
     subject = input("Введите предмет: ")
