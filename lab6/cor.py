@@ -31,23 +31,23 @@ def count_students():
     return len(students)
 
 # Выводим всех студентов
-print("Все студенты:")
+print("1. Все студенты:")
 print_students()
 
 # Ищем студента по имени
-print("\nСтудент с именем Георгий:")
+print("\n2. Студент с именем Георгий:")
 print(search_student_by_name("Георгий"))
 
 # Добавляем нового студента
 new_student = ("Студент4", "Студент4", 20, "Computer Science", 3.5)
 add_student(new_student)
-print("\nНовый список всех студентов:")
+print("\n3. Новый список всех студентов:")
 print_students()
 
 # Удаляем студента
 remove_student(("Студент2", "Студент2", 23, "Mathematics", 3.9))
-print("\nНовый список после удаления студента:")
+print("\n4. Новый список после удаления студента:")
 print_students()
 
 # Получаем количество студентов в множестве
-print("\nОбщее колиство студентов:", count_students())
+print("\n5. Общее колиство студентов:", count_students())
